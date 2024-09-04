@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int a = 1;
         // TODO: Problem 3: Describe when you would put code in the Start() function instead of the Update() function. 
         // What is the difference between Start() and Update()?
     }
