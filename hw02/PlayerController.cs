@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour
  * event subscription, while OnDisable() is called when the script or GameObject is disabled, useful for cleanup or 
  * unsubscribing from events. For Unity's new Input System, movement.Enable() activates input controls, making them responsive, 
  * and movement.Disable() deactivates them, stopping input reception. These methods manage input actions based on the script's active state.
+ * 
  * */
 private void OnEnable()
 {
