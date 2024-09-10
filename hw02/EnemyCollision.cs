@@ -66,14 +66,27 @@ public class EnemyCollision : MonoBehaviour
 
         public void UpdateWeapon()
         {
-            weapons[currenWeaponIndex] = 0;
-            currenWeaponIndex += 1;
-            if(currenWeaponIndex == 3)
+            //weapons[currenWeaponIndex] = 0;
+
+            //currenWeaponIndex += 1;
+            /* if(currenWeaponIndex == 3)
+             {
+                 currenWeaponIndex = 0;
+             }
+             weapons[currenWeaponIndex] = 1; */
+            int i = 0;
+            while (true)
             {
-                currenWeaponIndex = 0;
+                currenWeaponIndex = i;
+                weapons[currenWeaponIndex] = i;
+                i++;
+
+                if (i = 3)
+                {
+                    i = 0;
+                }
             }
 
-            weapons[currenWeaponIndex] = 1;
         }
     }
 
